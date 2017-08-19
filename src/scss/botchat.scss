@@ -173,7 +173,9 @@
         left: 0;
         position: absolute;
         right: 0;
-        box-shadow: 0px -1px 5px #c4c4c4
+        box-shadow: 0px -1px 5px #c4c4c4;
+        background-color: white;
+
     }
 
 /* views */
@@ -695,7 +697,8 @@
 /* browser scrollbar customization */
 
     .wc-app ::-webkit-scrollbar {
-        width: 8px;
+        width: 10px;
+        
     }
 
     .wc-app ::-webkit-scrollbar * {
@@ -704,5 +707,6 @@
 
     .wc-app ::-webkit-scrollbar-thumb {
         background-color: $c_chrome;
+        border-radius:20px;
     }
     
