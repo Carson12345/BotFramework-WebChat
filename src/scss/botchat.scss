@@ -50,6 +50,20 @@
         z-index: 1;
     }
 
+    .header-unread-badge{
+        background-color: #e54054;
+        border-radius: 12.5px;
+        height:25px;
+        width:25px;
+        text-align:center;
+        box-shadow: 0 0 0 1px #cf2615;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22px;
+        ;
+    }
+
     .wc-time {
         color: $c_textLight;
         margin-bottom: 10px;

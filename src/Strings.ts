@@ -17,9 +17,10 @@ interface LocalizedStrings {
     [locale: string]: Strings
 }
 
+//words on the bars
 const localizedStrings: LocalizedStrings = {
     'en-us': {
-        title: "Chat",
+        title: "1",
         send: "Send",
         unknownFile: "[File of type '%1']",
         unknownCard: "[Unknown Card '%1']",

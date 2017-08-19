@@ -181,7 +181,9 @@ export class Chat extends React.Component<ChatProps, {}> {
         let header: JSX.Element;
         if (state.format.options.showHeader) header =
             <div className="wc-header">
+                <div className="header-unread-badge">
                 <span>{ state.format.strings.title }</span>
+                </div>
             </div>;
 
         let resize: JSX.Element;
