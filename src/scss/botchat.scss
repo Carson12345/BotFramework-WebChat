@@ -173,7 +173,7 @@
         left: 0;
         position: absolute;
         right: 0;
-        box-shadow: 0px -1px 5px #c4c4c4;
+        box-shadow: 1px 1px 5px #c4c4c4;
         background-color: white;
 
     }
@@ -580,7 +580,8 @@
     .wc-console label {
         cursor: pointer;
         display: inline-block;
-        height: 40px;
+        height: 100%;
+        width: 13%;
     }
 
     .wc-console svg {
@@ -643,6 +644,16 @@
 
     .wc-console.has-text .wc-send svg {
         fill: $c07; 
+    }
+
+    .send-button-cus {
+        text-align: center;
+        height:100%;
+        padding-top: 25%;
+    }
+
+    .send-button-text {
+        color: $c07;
     }
 
 /* animation */
