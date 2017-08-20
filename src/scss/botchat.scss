@@ -595,12 +595,19 @@
         cursor: pointer;
         display: inline-block;
         height: 100%;
-        width: 13%;
+        width: 60px;
+    }
+
+    .wc-console-label-container {
+        cursor: pointer;
+        display: inline-block;
+        height: 100%;
+        width: 60px;
     }
 
     .wc-console svg {
         fill: $c03;
-        margin: 11px;
+        margin: 17px;
     }
 
     .wc-console textarea, .wc-console input[type=text] {
@@ -663,12 +670,14 @@
     .send-button-cus {
         text-align: center;
         height:100%;
-        padding-top: 25%;
+        padding-top: 14px;
     }
 
     .send-button-text {
         color: $c07;
     }
+
+    
 
 /* animation */
 
